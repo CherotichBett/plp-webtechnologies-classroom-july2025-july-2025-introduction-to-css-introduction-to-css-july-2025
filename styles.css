@@ -1,0 +1,112 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Header & Footer */
+.container {
+  background-color: #0d6efd; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #084298; /* demonstrates box model */
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.nav-list a:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  margin: 20px auto;   
+  padding: 20px;       
+  border: 2px solid #ccc; 
+  border-radius: 8px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+  color: #212529;
+  margin-top: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Form */
+form {
+  margin-top: 10px;
+}
+
+fieldset {
+  border: 2px solid #0d6efd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+/* Buttons */
+button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b02a37;
+}
